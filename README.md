@@ -1,10 +1,10 @@
 #
 
 <h2 align="center">About me</h2>
-
-```golang
-```
-
+<h3>
+- 🎓 &nbsp; Studying at University Tecnologico Mario Molina TECMM.
+- 💼 &nbsp; Working GDL in Flex Norte
+</h3>
 <h2 align="center">You can reach me at :alien:</h2>
 
 <p align="center">
