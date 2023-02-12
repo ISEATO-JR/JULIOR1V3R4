@@ -49,3 +49,21 @@ p {
 
 
 /** CODIGO AQUI **/
+@media ( min-width: 768px ) {
+    .contenedor-grid {
+        display: grid;
+         grid-template-columns: 20% 60% 20%;    /*Con porcentaje*/
+         /* grid-area: "izquierda contendio derecha"; */
+        /* grid-template-columns: 1fr 3fr 1fr; Por fraccion */
+        grid-auto-flow: column;  /*Acomoda en automatico las columnas que estan desacomodado*/
+        column-gap: 2rem;
+    }
+
+    .contenido-principal {
+        grid-column: 2 / 3;
+    }
+
+    .sidebar-1 {
+        grid-column: 1 / 2;
+    }
+}
