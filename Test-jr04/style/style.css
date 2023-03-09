@@ -192,16 +192,50 @@ img {
     font-family: var(--fuenteHeading);
     font-weight: 700;
 }
-.widget-curso__info{
+.widget-curso__info,
+.curso__labe {
     font-weight:400;
 }
 .widget-curso__labe,
-.widget-curso__info {
-    font-size: 2REM;
+.widget-curso__info,
+.curso__info {
+    font-size: 2rem;
 }
 
 .footer {
     background-color: var(--negro);
     padding: 3rem 0;
     margin-top:4rem;
+}
+
+/* Sobre Nosotros */
+@media ( min-width: 768px ){
+    .sobre-nosotros{
+        display: flex;
+        gap: 2rem;
+    }
+    .sobre-nosotros__imagen,
+    .sobre-nosotros__texto{
+         flex-basis: 50%;
+    }
+    
+}
+
+/* Curso */
+.curso{
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--gris);
+}
+
+@media ( min-width: 768px ){
+    .curso {
+        display: grid;
+        grid-template-columns: 33.3% 66.7%;
+        column-gap: 2rem;
+    }
+    
+}
+.curso:last-of-type{
+    border: none;
+    margin-bottom: 0;
 }
