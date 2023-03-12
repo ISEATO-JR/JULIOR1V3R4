@@ -5,12 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina principal">
     <title>Blog de cafe</title>
+
+    <!-- Prefetch -->
+    <link rel="Prefetch" href="nosotros.html" as="document">
+
+
+    <!-- Preload -->
+    <link rel="Preload" href="style/normalize.css" as="style">
     <link rel="stylesheet" href="style/normalize.css">
+
+    <link rel="Preload"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        crossorigin="crossorigin" as="font">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
         rel="stylesheet">
+
+    <link rel="Preload" href="style/style.css" as="style">
     <link rel="stylesheet" href="style/style.css">
 </head>
 
@@ -43,80 +57,86 @@
 
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img src="img/blog1.jpg" alt="imagen blog">
+                    <img src="img/blog1.jpg" alt="imagen blog" loading="lazy">
                 </div>
 
                 <div class="entrada__contenido">
                     <h4 class="no-margin"> Tipo de grano de Café</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit saepe culpa libero atque laudantium similique totam aut perspiciatis voluptatem dolorem reiciendis, quos, provident sapiente aspernatur veniam iste doloremque labore. Obcaecati.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit saepe culpa libero atque
+                        laudantium similique totam aut perspiciatis voluptatem dolorem reiciendis, quos, provident
+                        sapiente aspernatur veniam iste doloremque labore. Obcaecati.</p>
                     <a href="entrada.html" class="boton boton--primario"> Leer entrada</a>
                 </div>
             </article> <!-- Entrada 01 -->
 
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img src="img/blog2.jpg" alt="imagen blog">
+                    <img src="img/blog2.jpg" alt="imagen blog" loading="lazy">
                 </div>
 
                 <div class="entrada__contenido">
                     <h4 class="no-margin"> Tres deliciosa receta de Café</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit saepe culpa libero atque laudantium similique totam aut perspiciatis voluptatem dolorem reiciendis, quos, provident sapiente aspernatur veniam iste doloremque labore. Obcaecati.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit saepe culpa libero atque
+                        laudantium similique totam aut perspiciatis voluptatem dolorem reiciendis, quos, provident
+                        sapiente aspernatur veniam iste doloremque labore. Obcaecati.</p>
                     <a href="entrada.html" class="boton boton--primario"> Leer entrada</a>
                 </div>
             </article> <!-- Entrada 02 -->
 
             <article class="entrada">
                 <div class="entrada__imagen">
-                    <img src="img/blog3.jpg" alt="imagen blog">
+                    <img src="img/blog3.jpg" alt="imagen blog" loading="lazy">
                 </div>
 
                 <div class="entrada__contenido">
                     <h4 class="no-margin"> Benefio de tu Café</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit saepe culpa libero atque laudantium similique totam aut perspiciatis voluptatem dolorem reiciendis, quos, provident sapiente aspernatur veniam iste doloremque labore. Obcaecati.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit saepe culpa libero atque
+                        laudantium similique totam aut perspiciatis voluptatem dolorem reiciendis, quos, provident
+                        sapiente aspernatur veniam iste doloremque labore. Obcaecati.</p>
                     <a href="entrada.html" class="boton boton--primario"> Leer entrada</a>
                 </div>
-            </article>  <!-- Entrada 03 -->
+            </article> <!-- Entrada 03 -->
         </main><!--  Fin de main -->
 
         <aside class="sidebar">
             <h3>Nuestro Cursos y talleres</h3>
 
             <ul class="cursos no-padding">
-                    <li class="widget-curso">
-                        <h4 class="no-margin">Tecnica de extracion de café</h4>
-                        <p class="widget-curso__label">Precio:
-                            <span class="widget-curso__info">Gratis</span>
-                        </p>
+                <li class="widget-curso">
+                    <h4 class="no-margin">Tecnica de extracion de café</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">Gratis</span>
+                    </p>
 
-                        <p class="widget-curso__label">Grupo:
-                            <span class="widget-curso__info">20</span>
-                        </p>
-                        <a href="entrada.html" class="boton boton--secundario"> Mas información</a>
-                    </li><!-- Primer Curso -->
+                    <p class="widget-curso__label">Grupo:
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a href="entrada.html" class="boton boton--secundario"> Mas información</a>
+                </li><!-- Primer Curso -->
 
-                    <li class="widget-curso">
-                        <h4 class="no-margin">4 recesta de cafe para principiantes</h4>
-                        <p class="widget-curso__label">Precio:
-                            <span class="widget-curso__info">Gratis</span>
-                        </p>
+                <li class="widget-curso">
+                    <h4 class="no-margin">4 recesta de cafe para principiantes</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">Gratis</span>
+                    </p>
 
-                        <p class="widget-curso__label">Grupo:
-                            <span class="widget-curso__info">20</span>
-                        </p>
-                        <a href="entrada.html" class="boton boton--secundario"> Mas información</a>
-                    </li> <!-- Segundo Curso -->
+                    <p class="widget-curso__label">Grupo:
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a href="entrada.html" class="boton boton--secundario"> Mas información</a>
+                </li> <!-- Segundo Curso -->
 
-                    <li class="widget-curso">
-                        <h4 class="no-margin">4 recesta de cafe para principiantes</h4>
-                        <p class="widget-curso__label">Precio:
-                            <span class="widget-curso__info">Gratis</span>
-                        </p>
+                <li class="widget-curso">
+                    <h4 class="no-margin">4 recesta de cafe para principiantes</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">Gratis</span>
+                    </p>
 
-                        <p class="widget-curso__label">Grupo:
-                            <span class="widget-curso__info">20</span>
-                        </p>
-                        <a href="entrada.html" class="boton boton--secundario"> Mas información</a>
-                    </li> <!-- Tercer Curso -->
+                    <p class="widget-curso__label">Grupo:
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a href="entrada.html" class="boton boton--secundario"> Mas información</a>
+                </li> <!-- Tercer Curso -->
             </ul>
         </aside> <!--   Sidebar  -->
     </div>
@@ -136,6 +156,7 @@
             </div>
         </div>
     </footer> <!--  Footer  -->
-</body>
 
+    <script src="js/modernizr.js"></script>
+</body>
 </html>
