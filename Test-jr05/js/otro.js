@@ -1,0 +1,1 @@
+const variableExterno = 'Recuerda que esta en otro archivo este mensaje';
