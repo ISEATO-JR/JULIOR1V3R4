@@ -74,6 +74,12 @@ function  leerTexto(e){
     // console.log(datos)
 }
 
+function mostrarAlerta(mensaje,error = null ){
+    const alerta = document.createElement('P');
+    alerta.textContent = mensaje;
+
+}
+
 // Muestra una alerta correctamente
 function mostrarMensaje(mensaje){
     const alerta = document.createElement('P');
